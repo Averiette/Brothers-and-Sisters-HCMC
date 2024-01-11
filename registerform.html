@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="vn">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/03. Logo FPT Around orange.png" type="image/x-icon">
+    <Title> Brothers & Sisters 2024</Title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Boxicons Icon -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<Body>
+    <header class="header">
+<!-- Logo top-left -->
+        <a href="index.html">
+        <img src="img/01. Logo brosis 488x250px.png" alt="Brothers & Sisters" style="height: 60px;"></a> 
+
+<!-- Navigation bar -->
+        <nav class="navbarhome">
+            <a href="index.html">Home</a>
+            <a href="yearbook.html">Yearbook</a>
+            <button class="btnregister">Register Now</button>
+        </nav>
+    </header>
+    <div class="backgroundreg">
+    <div class="wrapper">
+                    <div class="form-box">
+                        <h2>REGISTRATION</h2>
+                        <!-- Bộ câu hỏi -->
+                        <!-- 01. MSSV -->
+                        <form action="#">
+                            <div class="input-box">
+                                <label>01. Họ và tên</label>
+                                <input type="answer" required placeholder="Nguyễn Văn A">
+                            </div>
+                            <div class="input-box">
+                                <input type="phonenumber" required placeholder="09********">
+                                <label>02. Số điện thoại</label>
+                            </div>
+                            <div class="input-box">
+                                <input type="answer" required placeholder="SS19****">
+                                <label>03. Mã số sinh viên</label>
+                            </div>
+                            <div class="input-box">
+                                <input type="answer" required placeholder="***@gmail.com/@fpt.edu.vn">
+                                <label>04. Email</label>
+                            </div>
+                            <div class="input-box">
+                                <input type="answer" required placeholder="*facebook.com">
+                                <label>05. Link Facebook cá nhân</label>
+                            </div>
+                            <div class="input-box">
+                                <label for="field-of-study">06. Ngành học hiện tại</label>
+                                    <select id="field-of-study" name="field-of-study">
+                                        <option value="option1">Tiếng anh chuẩn bị</option>
+                                        <option value="option2">Kinh doanh quốc tế</option>
+                                        <option value="option3">Digital Marketing</option>
+                                        <option value="option4">Kỹ thuật phần mềm</option>
+                                        <option value="option5">An toàn thông tin</option>
+                                        <option value="option6">Trí tuệ nhân tạo</option>
+                                        <option value="option7">Truyền thông đa phương tiện</option>
+                                        <option value="option8">Thiết kế đồ hoạ</option>
+                                        <option value="option9">Quản trị nhà hàng khách sạn</option>
+                                        <option value="option10">Ngôn ngữ Anh</option>
+                                    </select>
+                            </div>
+                        <button type="submit" class="btn">Submit</button>
+                        </form>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h2>REGISTRATION</h2>
+    <div class="input-box">
+        <label>Họ và tên</label>        
+        <input type="text" name="Họ và tên" required placeholder="Nguyễn Văn A">
+    </div>
+    <div class="input-box">
+        <label>02. Số điện thoại</label>
+        <input type="text" name="Số điện thoại" required placeholder="09********">
+    </div>
+    <div class="input-box">
+        <label>03. Mã số sinh viên</label>
+        <input type="text" name="MSSV" required placeholder="SS19****">
+    </div>
+    
+    /* Heading of Registration */
+.form-box h2 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #000;
+    text-align: center;
+}
+
+.input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    /* border-bottom: 2px solid #b9b9b9; */
+    margin: 40px 0;
+}
+
+.input-box-dropdown {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 40px 0;
+}
+
+/* Questions */
+.input-box label {
+    display: inline-block;
+    vertical-align: middle;
+    position: absolute;
+    margin-bottom: 200px;
+    left: 5px;
+    font-size: 22px;
+    color: #000;
+    font-weight: 700;
+    pointer-events: none;
+    white-space: nowrap;
+}
+
+.input-box-dropdown label {
+    position: absolute;
+    padding-top: 10px;
+    padding-bottom: 100px;
+    left: 5px;
+    font-size: 22px;
+    color: #000;
+    font-weight: 700;
+    pointer-events: none;
+    white-space: nowrap;
+}
+
+/* Answer Box */
+.input-box input {
+    width: 120%;
+    height: 120%;
+    font-size: 22px;
+    color: #000;
+    background: transparent;
+    border: none;
+    outline: 2px solid #000;
+    border-radius: 10px;
+
+}
+
+/* Styling the select element */
+select#field-of-study {
+    width: auto;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding: 10px 10px;
+    font-size: 22px;
+    border: #333;
+    border-radius: 5px;
+}
+
+  /* Styling the option elements */
+select#field-of-study option {
+    font-size: 22px;
+    color: #333;
+    background-color: transparent;
+    border-radius: 5px;
+}
+
+  /* Styling the selected option */
+select#field-of-study option:checked {
+    width: 100%;
+    height: 100%;
+    font-size: 22px;
+    color: #000;
+    background: transparent;
+    border: #333;
+    outline: none;
+}
+
